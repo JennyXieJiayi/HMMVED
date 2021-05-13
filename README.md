@@ -22,7 +22,7 @@ For the Xigua datset we collect, we release the data as well.
 
 ### The Xigua dataset
 
-The Xigua micro-video popularity sequence prediction dataset we collect is available [[google drive]](https://drive.google.com/open?id=1-q46LeBvi1-z7riJB28tDqk-hM5eu8g_), [[baidu]](https://pan.baidu.com/s/1FA_odoDCwPXX3khdH2GPwQ) (pin: zpwb). Descriptions of the files are as follows:
+The Xigua micro-video popularity sequence prediction dataset we collect is available [[google drive]](https://drive.google.com/open?id=1-q46LeBvi1-z7riJB28tDqk-hM5eu8g_), [[baidu]](https://pan.baidu.com/s/1FA_odoDCwPXX3khdH2GPwQ) (pin: zpwb). For usage, download, unzip the data folder and put them in the <popularity_sequence_prediction> directory. Descriptions of the files are as follows:
 
 - **`resnet50.npy`**:
    (N×128). Visual features extracted by ResNet50 pre-trained on ImageNet.
