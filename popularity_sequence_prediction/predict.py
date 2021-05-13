@@ -221,24 +221,22 @@ def evaluate(preds, truth, save_path):
                 cnt_samples = cnt_samples-1
                 continue
             corr += corr_this
-            p_val += p_value_this
-        return corr / cnt_samples, p_val / cnt_samples
+        return corr / cnt_samples
 
     def nmse(preds, truth):   
         return np.mean(np.square(preds - truth)) / (truth.std()**2)
 
     nmse = nmse(preds, truth)
     corr = pearson_corr(preds, truth)
-    srcc, p_val = spearman_corr(preds, truth)
+    srcc = spearman_corr(preds, truth)
 
     table = pd.DataFrame({
             "nmse" : [nmse],
             "corr" : [corr],
-            "srcc" : [srcc],
-            "srcc_p_val" : [p_val]})
+            "srcc" : [srcc]})
     print("test nmse: {:.4f}".format(nmse))
     print("test corr: {:.4f}".format(corr))
-    print("test srcc: {:.4f}, p_value: {:.4f}".format(srcc, p_val))
+    print("test srcc: {:.4f}".format(srcc))
     table.to_csv(save_path, mode='a', index=False, sep="\t")
     return nmse, corr, srcc
 
