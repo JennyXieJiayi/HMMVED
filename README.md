@@ -72,7 +72,7 @@ For more advanced arguments, run the code with --help argument.
 	@inproceedings{mmved-www2020,
 	  title={A Multimodal Variational Encoder-Decoder Framework for Micro-video Popularity Prediction},
 	  author={Xie, Jiayi and Zhu, Yaochen and Zhang, Zhibin and Peng, Jian and Yi, Jing and Hu, Yaosi and Liu, Hongyi and Chen, Zhenzhong},
-	  booktitle={The World Wide Web Conference},
+	  booktitle={The Web Conference},
 	  year={2020},
 	  pages = {2542–2548},
 	}
