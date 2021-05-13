@@ -22,7 +22,7 @@ For the Xigua datset we collect, we release the data as well.
 
 ### The Xigua dataset
 
-The Xigua micro-video popularity sequence prediction dataset we collect is available [[google drive]](https://drive.google.com/open?id=1-q46LeBvi1-z7riJB28tDqk-hM5eu8g_), [[baidu]](https://pan.baidu.com/s/1FA_odoDCwPXX3khdH2GPwQ) (pin: zpwb). For usage, download, unzip the data folder and put them in the *popularity_sequence_prediction* directory. Descriptions of the files are as follows:
+The Xigua micro-video popularity sequence prediction dataset we collect is available [[google drive]](https://drive.google.com/open?id=1-q46LeBvi1-z7riJB28tDqk-hM5eu8g_), [[baidu]](https://pan.baidu.com/s/1FA_odoDCwPXX3khdH2GPwQ) (pin: zpwb). For usage, download, unzip the data folder and put them in the `popularity_sequence_prediction` directory. Descriptions of the files are as follows:
 
 - **`resnet50.npy`**:
    (N×128). Visual features extracted by ResNet50 pre-trained on ImageNet.
@@ -50,16 +50,9 @@ The original NUS dataset can be found [here](https://acmmm2016.wixsite.com/micro
 
 ## Examples to run the Codes
 
-The basic usage of the codes for training and testing HMMVED model on both Xigua and NUS dataset is as follows:
+An example to run the codes for training and testing HMMVED model can be found in `popularity_sequence_prediction/run_example.py`.
 
-- **For training**: 
-
-	```python train.py --lambd [LAMBDA] --split [SPLIT]```
-- **For testing**:
-
-	```python predict.py --model_path [PATH_TO_MODEL] --test_mods [VATS]```
-
-For more advanced arguments, run the code with --help argument.
+For more advanced arguments, run the `train.py` and `predict.py` with --help argument.
 
 ### **If you find our codes and dataset helpful, please kindly cite the following papers. Thanks!**
 
