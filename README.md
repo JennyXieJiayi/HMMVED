@@ -55,17 +55,12 @@ An example to run the codes for training and testing HMMVED model can be found i
 For more advanced arguments, run the `train.py` and `predict.py` with --help argument.
 
 ### **If you find our codes and dataset helpful, please kindly cite the following papers. Thanks!**
-
-    @article{hmmved-2021,
-        title={Micro-video Popularity Prediction via Multimodal Variational Information Bottleneck},
-        author={Xie, Jiayi and Zhu, Yaochen and Chen, Zhenzhong},
-        year={2021}
-    }
-
-	@inproceedings{mmved-www2020,
-	  title={A Multimodal Variational Encoder-Decoder Framework for Micro-video Popularity Prediction},
-	  author={Xie, Jiayi and Zhu, Yaochen and Zhang, Zhibin and Peng, Jian and Yi, Jing and Hu, Yaosi and Liu, Hongyi and Chen, Zhenzhong},
-	  booktitle={The Web Conference},
-	  year={2020},
-	  pages = {2542–2548},
-	}
+@article{hmmved-tmm2021,  
+	author={Xie, Jiayi and Zhu, Yaochen and Chen, Zhenzhong},  
+	journal={IEEE Transactions on Multimedia},   
+	title={Micro-video Popularity Prediction via Multimodal Variational Information Bottleneck},   
+	year={2021},  
+	volume={},  
+	number={},  
+	pages={1-1},  
+	doi={10.1109/TMM.2021.3120537}}
