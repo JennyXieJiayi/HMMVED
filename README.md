@@ -55,7 +55,7 @@ An example to run the codes for training and testing HMMVED model can be found i
 For more advanced arguments, run the `train.py` and `predict.py` with --help argument.
 
 ### **If you find our codes and dataset helpful, please kindly cite the following papers. Thanks!**
-@article{hmmved-tmm2021,  
+> @article{hmmved-tmm2021,  
 	author={Xie, Jiayi and Zhu, Yaochen and Chen, Zhenzhong},  
 	journal={IEEE Transactions on Multimedia},   
 	title={Micro-video Popularity Prediction via Multimodal Variational Information Bottleneck},   
