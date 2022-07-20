@@ -1,6 +1,6 @@
 # HMMVED: Micro-video Popularity Prediction via Multimodal Variational Information Bottleneck
 
-This is the implementation of HMMVED for micro-video popularity prediction. The implementation of our proposed MMVED can be found in [here](https://github.com/yaochenzhu/MMVED).
+This is the implementation of [HMMVED](https://ieeexplore.ieee.org/abstract/document/9576573/) for micro-video popularity prediction. The implementation of our proposed MMVED can be found in [here](https://github.com/yaochenzhu/MMVED).
 
 It includes two parts:
 
