@@ -33,8 +33,8 @@ The Xigua micro-video popularity sequence prediction dataset we collect is avail
 - **`fudannlp.npy`**:
    (N×20). Textual features extracted by the FudanNLP toolkit.
 
-- **`social.npy`**:
-   (N×4). Social features crawled from the user attributes.
+- **`user.npy`**:
+   (N×4). Social features crawled from the user attributes, where the first dimension is users' ID.
 
 - **`len_9/target.npy`**: (N×9×2). Popularity groundtruth (0-axis) and absolute time (1-axis) at each timestep.
 
